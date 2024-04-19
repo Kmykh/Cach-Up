@@ -1,3 +1,4 @@
+
 <script>
 import {NewsApiService} from "../services/news-api.service.js";
 

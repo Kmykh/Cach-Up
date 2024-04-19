@@ -1,7 +1,7 @@
 <script>
 export default {
   name: "unavailable-content",
-  props: {errors : null}
+  props: { errors: null }
 }
 </script>
 
@@ -9,8 +9,7 @@ export default {
   <div>
     <div><h4>Unavailable content</h4></div>
     <div v-for="error in errors">
-      <h6>{{error}}</h6>
+      <h6>{{ error }}</h6>
     </div>
   </div>
 </template>
-
